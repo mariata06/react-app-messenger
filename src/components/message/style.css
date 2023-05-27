@@ -1,0 +1,17 @@
+.Message {
+    border: 1px solid #adb4b9;
+    border-radius: 15px;
+}
+
+.Message-text {
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.Message-text span {
+    margin-left: auto;
+    display: inline-block;
+    font-size: 12px;
+    align-self: flex-end;
+}

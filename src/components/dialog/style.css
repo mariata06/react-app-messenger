@@ -1,0 +1,15 @@
+.Dialog {
+    width: 100%;
+    padding: 30px;
+    padding: 30px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+.Dialog-chatid {
+    background-color: azure;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}

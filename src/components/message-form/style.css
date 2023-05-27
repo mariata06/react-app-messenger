@@ -1,0 +1,22 @@
+.MessageForm form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MessageForm form textarea {
+    width: 75%;
+    margin-top: 20px;
+    border: 1px solid #adb4b9;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.MessageForm form textarea::placeholder {
+    color: lightgrey;
+    font-size: 20px;
+}
+
+.NewMessage form {
+    display: flex;
+    justify-content: space-between;
+}

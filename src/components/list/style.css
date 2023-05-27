@@ -1,0 +1,32 @@
+.List {
+    height: 70%;
+    background-color: aliceblue;
+    padding: 30px;
+    overflow-y: auto;
+    /* height: 670px; */
+    height: 500px;
+    border-radius: 5px;
+}
+
+.List-item {
+    width: 70%;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.List-item--right {
+    background-color: azure;
+    margin-left: auto;
+}
+
+
+
+.List-item:last-child {
+    margin-bottom: 0;
+}
+
+.List-item.List-item--left {
+    margin-right: auto;
+    background-color: bisque;
+    background-color: white;
+}

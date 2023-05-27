@@ -1,0 +1,36 @@
+.Person {
+    display: flex;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.Person-avatar {
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.Person-avatar img {
+    border-radius: 1000px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.Person-title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Person-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Person-phonenumber {
+    font-size: 18px;
+    font-weight: 500;
+}

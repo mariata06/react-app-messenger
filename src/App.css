@@ -1,0 +1,63 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin: 50px auto 50px;
+  margin: 0 auto;
+  border: 1px solid #adb4b9;
+  border-radius: 5px;
+  background-color: #ccc;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Wrapper {
+  width: 70%;
+  width: 65%;
+  background-color: beige;
+  border-radius: 5px;
+}
+
+.visually-hidden {
+  position: absolute;
+  
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+
+  clip: rect(0 0 0 0);
+}
+
+button {
+  cursor: pointer;
+  background-color: pink;
+  padding: 0;
+  padding: 10px;
+  border: none;
+  align-self: center;
+  border: 1px solid #adb4b9;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: opacity 0.3s ease-out;
+}
+
+button:hover {
+  opacity: 0.7
+}
