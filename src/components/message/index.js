@@ -7,7 +7,7 @@ function Message(props){
         <div className='Message-container'>
             <div className='Message-text '>
                 {props.text}
-                <span>{(new Date(props.timestamp)).toLocaleString()}</span>
+                <span>{props.incoming ? (new Date(props.timestamp*1000)).toLocaleString() : (new Date(props.timestamp)).toLocaleString()}</span>
             </div>
         </div>
     </div>

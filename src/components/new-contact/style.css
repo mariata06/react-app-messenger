@@ -35,19 +35,19 @@
     font-size: 30px;
 }
 
-form {
+.NewContact form {
     text-align: center;
     margin: 0 auto;
 }
 
-.form-input label {
+.NewContact .form-input label {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.form-input input {
+.NewContact .form-input input {
     padding: 10px 20px;
     width: 300px;
     height: 50px;
@@ -56,6 +56,6 @@ form {
     font-size: 20px;
 }
 
-.form-input input::placeholder {
+.NewContact .form-input input::placeholder {
     font-size: 20px;
 }

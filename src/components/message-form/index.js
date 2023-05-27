@@ -36,8 +36,6 @@ const MessageForm = (props) => {
                 if (res.status === 200) {
                     props.onAddMessage(messageData);
                     setEnteredText('');
-                } else {
-                    console.log(res);
                 }
             });
         }
@@ -65,15 +63,12 @@ const MessageForm = (props) => {
         })
         .catch(error => console.log('error', error));
 
-        setTimeout(async () => {
-            if (receiptId !== '') {
+        if (receiptId !== '') {
             const urlDelete = `https://api.green-api.com/waInstance${props.idInstance}/deleteNotification/${props.apiTokenInstance}/${receiptId}`;
             await fetch(urlDelete, {
                 method: "DELETE",
             })
-            .then(res => console.log(res));
-        }
-        }, 1000)
+        };
     };
 
     return (

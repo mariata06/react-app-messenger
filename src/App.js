@@ -106,19 +106,24 @@ function App() {
   };
 
   const submitAuthorizedHandler = () => {
-    let authorised = true;
-    if (authorised){
-      setModalIsOpen(prev => !prev);
-    } else {
-      setIdInstance('');
-      setApiTokenInstance('');
-    }
+    setModalIsOpen(prev => !prev);
   };
 
   const addMessageHandler = (message) => {
     setMessages((prevMessages) => {
       return [...prevMessages, message];
     });
+
+    setContacts([...(contacts.map(contact => {
+      if (contact.phonenumber === phone) {
+        return {
+          ...contact,
+          messages: [...messages, message]
+        }
+      } else {
+        return contact;
+      }
+    }))])
   };
 
   const addContactToggle = () => {

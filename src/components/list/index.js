@@ -7,7 +7,7 @@ function List(props){
         <div className='List'>{
             props.messages.map(message =>
                 <div key={message.id} className={message.incoming ? 'List-item List-item--left' : 'List-item List-item--right'}>
-                    <Message id={message.id} text={message.text} timestamp={message.timestamp}/>
+                    <Message id={message.id} text={message.text} timestamp={message.timestamp} incoming={message.incoming}/>
                 </div>
             )}
         </div>

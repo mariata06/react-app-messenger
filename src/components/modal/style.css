@@ -35,31 +35,27 @@
     font-size: 30px;
 }
 
-form {
+.Modal form {
     text-align: center;
     margin: 0 auto;
 }
 
-.Modal .Controls {
-    align-self: center;
-}
-
-.form-input label {
+.Modal .form-input label {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-bottom: 20px;
 }
 
-.form-input input {
+.Modal .form-input input {
     padding: 10px 20px;
-    width: 300px;
+    width: 550px;
     height: 50px;
     border-radius: 5px;
     border: 1px solid #adb4b9;
     font-size: 20px;
 }
 
-.form-input input::placeholder {
+.Modal .form-input input::placeholder {
     font-size: 20px;
 }
